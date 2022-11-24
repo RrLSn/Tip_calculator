@@ -6,14 +6,14 @@ An implementation of A Tip Calculator with HTML/CSS
 clone or download this respository and run with a local server of open 'index.html' with your favorite browser
 
 # Prequisite
-Your browser version must be recent for a better experience https://github.com/RrLSn/image_slider.git
+Your browser version must be recent for a better experience https://github.com/RrLSn/Tip_calculator.git
 
 # Tech/framework used
 HTML
 CSS
 
 # Demo
-[preview]()
+[preview](https://singular-fudge-a5e5f9.netlify.app)
 
 
 # Contact
