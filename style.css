@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --background: #86bbd8;
+    --main: #ffffff;
+    --nav: #336699;
+}
+
+body{
+    background-color: var(--background);
+}
+
+main{
+    width: 55%;
+    height: 30rem;
+    margin: 11rem auto;
+    background-color: var(--main);
+    border-radius: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 4rem;
+    background-color: var(--nav);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    color: var(--main);
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.wrapper{
+    width: 95%;
+    height: 70%;
+    margin: 3rem auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.price{
+    margin-bottom: 1.5rem;
+}
+
+.price p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+span{
+    display: flex;
+}
+
+span div{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--nav);
+    color: var(--main);
+    text-align: center;
+    padding-top: 2.5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+input{
+    width: 95%;
+    padding-left: 1rem;
+}
+
+input:focus{
+    outline: none;
+    border: 0.1rem solid var(--background);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.number{
+    margin-bottom: 1.5rem;
+}
+
+.number p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.option{
+    margin-bottom: 1.5rem;
+}
+
+.option p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+select{
+    width: 100%;
+    height: 3rem;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+select:focus{
+    outline: none;
+    border: 0.1rem solid var(--background);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+button{
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 2px;
+    background-color: var(--nav);
+    color: var(--main);
+    border: none;
+    margin-left: 5.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--background);
+    color: black;
+}
+
+@media (max-width:640px){
+    :root {
+        font-size: 10px;
+    }
+
+    body{
+        height: 115vh;
+    }
+
+    main{
+        height: 100%;
+        width: 80vw;
+        margin: 0 3rem;
+    }
+
+    .wrapper{
+        width: 90%;
+    }
+
+    span div{
+        height: 3rem;
+        padding-top: 5px;
+    }
+
+    button{
+        width: 70%;
+        margin-left: 3rem;
+        margin-top: 0.8rem;
+    }
+}
