@@ -53,15 +53,35 @@ span{
     display: flex;
 }
 
+.span{
+    display: flex;
+}
+
 span div{
     width: 2.5rem;
     height: 2.5rem;
     background-color: var(--nav);
     color: var(--main);
     text-align: center;
-    padding-top: 2.5px;
+    padding-top: 3px;
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+.span div{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--nav);
+    color: var(--main);
+    text-align: center;
+    padding-top: 3px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.span img{
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 input{
