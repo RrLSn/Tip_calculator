@@ -178,13 +178,14 @@ button:hover{
     }
 
     main{
-        height: 100%;
+        height: max-content;
         width: 80vw;
-        margin: 0 3rem;
+        margin: 10rem auto;
     }
 
     .wrapper{
         width: 90%;
+
     }
 
     span div{
