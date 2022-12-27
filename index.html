@@ -12,19 +12,24 @@
         <nav>
             <h1>TIP CALCULATOR</h1>
         </nav>
+        <div class="warn">
+            <p class="bill-warn"></p>
+            <p class="sharing-warn"></p>
+            <p class="service-warn"></p>
+        </div>
         <div class="wrapper">
             <div class="price">
                 <p>How Much Was Your Bill ?</p>
                 <span>
                     <div><h5>$</h5></div>
-                    <input type="number" id="input_bill" class="input_bill">
+                    <input type="number" id="bill" class="input_bill">
                 </span>
             </div>
             <div class="number">
                 <p>How Many People Sharing The Bill ?</p>
                 <div class="span">
                     <div><img src="./media/contacts-fill.png"></div>
-                    <input type="number" id="input_bill" class="input_bill">
+                    <input type="number" id="bill-sharing" class="input_bill">
                 </div>
             </div>
             <div class="option">
@@ -37,7 +42,13 @@
                 </select>
             </div>
             <button class="cal" id="cal">Calculate</button>
+            <div class="answer">
+                <p class="tip-Amnt"></p>
+                <p class="bill-Amnt"></p>
+                <p class="owes"></p>
+            </div>
         </div>
     </main>
+    <script src="./main.js"></script>
 </body>
 </html>

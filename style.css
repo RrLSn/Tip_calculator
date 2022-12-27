@@ -13,7 +13,7 @@ body{
 
 main{
     width: 55%;
-    height: 30rem;
+    height: max-content;
     margin: 11rem auto;
     background-color: var(--main);
     border-radius: 1rem;
@@ -34,9 +34,23 @@ nav{
 
 .wrapper{
     width: 95%;
-    height: 70%;
-    margin: 3rem auto;
+    height: max-content;
+    margin: 2.5rem auto;
+    padding-bottom: 1.5rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.warn{
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    width: 98%;
+    height: max-content;
+    border-radius: 3px;
+    text-align: center;
+    margin: 2rem auto 0;
+    display: none;
 }
 
 .price{
@@ -86,7 +100,8 @@ span div{
 
 input{
     width: 95%;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
 }
 
 input:focus{
@@ -143,6 +158,14 @@ button{
 button:hover{
     background-color: var(--background);
     color: black;
+}
+
+.answer{
+    width: 50%;
+    margin: 2.5rem auto;
+    font-size: 3rem;
+    text-align: center;
+    display: none;
 }
 
 @media (max-width:640px){
