@@ -1,5 +1,4 @@
 # Tip_calculator
-# fcc-Loop assignment
 An implementation of A Tip Calculator with HTML/CSS/JAVASCRIPT
 
 # Getting Started
